@@ -1,0 +1,20 @@
+[
+    {
+        "nom": "Vincent-Laurent Klein",
+        "age": "18",
+        "email": "ymary@vallet.fr",
+        "ville": "Paris"
+    },
+    {
+        "nom": "Claudine Gilles",
+        "age": "19",
+        "email": "gaudinfrederique@blot.com",
+        "ville": "Paris"
+    },
+    {
+        "nom": "Thibault Renaud",
+        "age": "22",
+        "email": "smonnier@laposte.net",
+        "ville": "Paris"
+    }
+]
