@@ -1,6 +1,6 @@
-import csv, json
-import os
+from utils.csv_utils import read_csv
 from utils.logger import logger
+from utils.json_utils import export_json
 
 
 def arrangeVille(ville):
@@ -34,9 +34,7 @@ def getAllVille(data):
 
 def readFile(file, data):
     logger.info(f"Lecture du fichier CSV : {file}")
-    with open(file, newline='',encoding="UTF-8") as csvFile:
-        reader = csv.DictReader(csvFile)
-        data.extend(list(reader))
+    data = read_csv(file)
     logger.info(f"Nombre d'elements lus : {len(data)}")
     return data
 
@@ -59,9 +57,7 @@ def sortedAge(data):
 
 def exportJson(data, file):
     logger.info(f"Export des donnees vers le fichier JSON : {file}")
-    os.makedirs(os.path.dirname(file), exist_ok=True)
-    with open(file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    export_json(data,file)
     logger.info("Export JSON termine")
         
 
@@ -72,6 +68,6 @@ def exportStudentByCity(csv_path) :
     ville = demanderVille(allCity)
     filterStudentData = filterStudent(data,ville)
     sortedByAge = sortedAge(filterStudentData)    
-    exportFile = "export/"+ville+".json"
+    exportFile = "exports/"+ville+".json"
     exportJson(sortedByAge,exportFile)
     logger.info(f"Export termine pour la ville : {ville}")
