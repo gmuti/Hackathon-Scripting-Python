@@ -72,6 +72,6 @@ def exportStudentByCity(csv_path) :
     ville = demanderVille(allCity)
     filterStudentData = filterStudent(data,ville)
     sortedByAge = sortedAge(filterStudentData)    
-    exportFile = "export/"+ville+".json"
+    exportFile = "exports/"+ville+".json"
     exportJson(sortedByAge,exportFile)
     logger.info(f"Export termine pour la ville : {ville}")

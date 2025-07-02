@@ -20,3 +20,169 @@
 2025-07-02 16:50:06,807 - INFO - Export des données vers le fichier JSON : export/Paris.json
 2025-07-02 16:50:06,808 - INFO - Export JSON terminé
 2025-07-02 16:50:06,808 - INFO - Export terminé pour la ville : Paris
+2025-07-02 17:12:17,411 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:17,537 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:17,539 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:17,608 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:17,609 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:17,674 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:17,676 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:17,755 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:17,761 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:17,826 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:17,826 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:17,889 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:17,889 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:17,954 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:17,954 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:18,021 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:18,021 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:18,086 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:18,088 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:18,687 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Nantes&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:18,688 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:18,758 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Nantes&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:18,759 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:19,079 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:19,081 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:19,147 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:12:19,149 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:12:19,218 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=&units=metric&lang=fr HTTP/1.1" 401 108
+2025-07-02 17:13:40,954 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,022 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 523
+2025-07-02 17:13:41,023 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,095 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 523
+2025-07-02 17:13:41,095 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,162 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 523
+2025-07-02 17:13:41,164 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,235 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 523
+2025-07-02 17:13:41,239 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,325 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 513
+2025-07-02 17:13:41,327 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,427 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 513
+2025-07-02 17:13:41,428 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,519 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 513
+2025-07-02 17:13:41,524 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,593 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 513
+2025-07-02 17:13:41,598 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,670 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 513
+2025-07-02 17:13:41,674 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,743 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Nantes&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 502
+2025-07-02 17:13:41,746 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,817 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Nantes&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 502
+2025-07-02 17:13:41,820 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,886 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 499
+2025-07-02 17:13:41,886 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:41,972 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 499
+2025-07-02 17:13:41,973 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:13:42,062 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 499
+2025-07-02 17:24:11,634 - INFO - Liste des fichiers JSON dans le dossier : exports
+2025-07-02 17:24:11,634 - DEBUG - Fichiers trouvés : ['Bordeaux.json', 'Marseille.json', 'Nantes.json', 'Paris.json']
+2025-07-02 17:24:11,634 - INFO - Chargement des étudiants depuis : exports\Bordeaux.json
+2025-07-02 17:24:11,634 - DEBUG - Nombre d'étudiants chargés : 4
+2025-07-02 17:24:11,636 - DEBUG - Traitement de l'étudiant : Lorraine Lagarde (Bordeaux)
+2025-07-02 17:24:11,636 - INFO - Requête météo pour la ville : Bordeaux
+2025-07-02 17:24:11,637 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:11,749 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 499
+2025-07-02 17:24:11,751 - DEBUG - Réponse météo reçue : {'coord': {'lon': -0.5805, 'lat': 44.8404}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'nuageux', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 25.15, 'feels_like': 25.52, 'temp_min': 24.6, 'temp_max': 25.15, 'pressure': 1019, 'humidity': 69, 'sea_level': 1019, 'grnd_level': 1013}, 'visibility': 10000, 'wind': {'speed': 5.14, 'deg': 280}, 'clouds': {'all': 75}, 'dt': 1751469651, 'sys': {'type': 1, 'id': 6450, 'country': 'FR', 'sunrise': 1751430035, 'sunset': 1751485912}, 'timezone': 7200, 'id': 3031582, 'name': 'Bordeaux', 'cod': 200}
+2025-07-02 17:24:11,751 - DEBUG - Détermination du mode de cours pour la météo : Clouds
+2025-07-02 17:24:11,752 - INFO - Cours en présentiel pour Lorraine Lagarde (Bordeaux) – Météo : nuageux
+2025-07-02 17:24:11,752 - DEBUG - Traitement de l'étudiant : Marcel Le Charpentier (Bordeaux)
+2025-07-02 17:24:11,752 - INFO - Requête météo pour la ville : Bordeaux
+2025-07-02 17:24:11,755 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:11,839 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 499
+2025-07-02 17:24:11,839 - DEBUG - Réponse météo reçue : {'coord': {'lon': -0.5805, 'lat': 44.8404}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'nuageux', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 25.15, 'feels_like': 25.52, 'temp_min': 24.6, 'temp_max': 25.15, 'pressure': 1019, 'humidity': 69, 'sea_level': 1019, 'grnd_level': 1013}, 'visibility': 10000, 'wind': {'speed': 5.14, 'deg': 280}, 'clouds': {'all': 75}, 'dt': 1751469651, 'sys': {'type': 1, 'id': 6450, 'country': 'FR', 'sunrise': 1751430035, 'sunset': 1751485912}, 'timezone': 7200, 'id': 3031582, 'name': 'Bordeaux', 'cod': 200}
+2025-07-02 17:24:11,840 - DEBUG - Détermination du mode de cours pour la météo : Clouds
+2025-07-02 17:24:11,840 - INFO - Cours en présentiel pour Marcel Le Charpentier (Bordeaux) – Météo : nuageux
+2025-07-02 17:24:11,840 - DEBUG - Traitement de l'étudiant : Stéphane Germain (Bordeaux)
+2025-07-02 17:24:11,840 - INFO - Requête météo pour la ville : Bordeaux
+2025-07-02 17:24:11,840 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:11,918 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 499
+2025-07-02 17:24:11,918 - DEBUG - Réponse météo reçue : {'coord': {'lon': -0.5805, 'lat': 44.8404}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'nuageux', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 25.15, 'feels_like': 25.52, 'temp_min': 24.6, 'temp_max': 25.15, 'pressure': 1019, 'humidity': 69, 'sea_level': 1019, 'grnd_level': 1013}, 'visibility': 10000, 'wind': {'speed': 5.14, 'deg': 280}, 'clouds': {'all': 75}, 'dt': 1751469651, 'sys': {'type': 1, 'id': 6450, 'country': 'FR', 'sunrise': 1751430035, 'sunset': 1751485912}, 'timezone': 7200, 'id': 3031582, 'name': 'Bordeaux', 'cod': 200}
+2025-07-02 17:24:11,918 - DEBUG - Détermination du mode de cours pour la météo : Clouds
+2025-07-02 17:24:11,918 - INFO - Cours en présentiel pour Stéphane Germain (Bordeaux) – Météo : nuageux
+2025-07-02 17:24:11,918 - DEBUG - Traitement de l'étudiant : Frédérique Buisson-François (Bordeaux)
+2025-07-02 17:24:11,918 - INFO - Requête météo pour la ville : Bordeaux
+2025-07-02 17:24:11,920 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:12,001 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Bordeaux&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 499
+2025-07-02 17:24:12,001 - DEBUG - Réponse météo reçue : {'coord': {'lon': -0.5805, 'lat': 44.8404}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'nuageux', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 25.15, 'feels_like': 25.52, 'temp_min': 24.6, 'temp_max': 25.15, 'pressure': 1019, 'humidity': 69, 'sea_level': 1019, 'grnd_level': 1013}, 'visibility': 10000, 'wind': {'speed': 5.14, 'deg': 280}, 'clouds': {'all': 75}, 'dt': 1751469651, 'sys': {'type': 1, 'id': 6450, 'country': 'FR', 'sunrise': 1751430035, 'sunset': 1751485912}, 'timezone': 7200, 'id': 3031582, 'name': 'Bordeaux', 'cod': 200}
+2025-07-02 17:24:12,002 - DEBUG - Détermination du mode de cours pour la météo : Clouds
+2025-07-02 17:24:12,002 - INFO - Cours en présentiel pour Frédérique Buisson-François (Bordeaux) – Météo : nuageux
+2025-07-02 17:24:12,002 - INFO - Chargement des étudiants depuis : exports\Marseille.json
+2025-07-02 17:24:12,002 - DEBUG - Nombre d'étudiants chargés : 5
+2025-07-02 17:24:12,002 - DEBUG - Traitement de l'étudiant : Alexandrie Rousseau du Collet (Marseille)
+2025-07-02 17:24:12,002 - INFO - Requête météo pour la ville : Marseille
+2025-07-02 17:24:12,002 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:12,115 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 512
+2025-07-02 17:24:12,115 - DEBUG - Réponse météo reçue : {'coord': {'lon': 5.5, 'lat': 43.3333}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 30.84, 'feels_like': 29.4, 'temp_min': 30.84, 'temp_max': 31.75, 'pressure': 1015, 'humidity': 28, 'sea_level': 1015, 'grnd_level': 996}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 262, 'gust': 7.15}, 'clouds': {'all': 0}, 'dt': 1751469647, 'sys': {'type': 2, 'id': 80238, 'country': 'FR', 'sunrise': 1751428914, 'sunset': 1751484114}, 'timezone': 7200, 'id': 2995468, 'name': 'Marseille', 'cod': 200}
+2025-07-02 17:24:12,115 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:12,115 - INFO - Cours en présentiel pour Alexandrie Rousseau du Collet (Marseille) – Météo : ciel dégagé
+2025-07-02 17:24:12,116 - DEBUG - Traitement de l'étudiant : Renée Humbert (Marseille)
+2025-07-02 17:24:12,116 - INFO - Requête météo pour la ville : Marseille
+2025-07-02 17:24:12,116 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:12,225 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 512
+2025-07-02 17:24:12,225 - DEBUG - Réponse météo reçue : {'coord': {'lon': 5.5, 'lat': 43.3333}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 30.84, 'feels_like': 29.4, 'temp_min': 30.84, 'temp_max': 31.75, 'pressure': 1015, 'humidity': 28, 'sea_level': 1015, 'grnd_level': 996}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 262, 'gust': 7.15}, 'clouds': {'all': 0}, 'dt': 1751469647, 'sys': {'type': 2, 'id': 80238, 'country': 'FR', 'sunrise': 1751428914, 'sunset': 1751484114}, 'timezone': 7200, 'id': 2995468, 'name': 'Marseille', 'cod': 200}
+2025-07-02 17:24:12,226 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:12,226 - INFO - Cours en présentiel pour Renée Humbert (Marseille) – Météo : ciel dégagé
+2025-07-02 17:24:12,226 - DEBUG - Traitement de l'étudiant : Philippine-Michèle Barthelemy (Marseille)
+2025-07-02 17:24:12,226 - INFO - Requête météo pour la ville : Marseille
+2025-07-02 17:24:12,226 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:12,341 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 512
+2025-07-02 17:24:12,341 - DEBUG - Réponse météo reçue : {'coord': {'lon': 5.5, 'lat': 43.3333}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 30.84, 'feels_like': 29.4, 'temp_min': 30.84, 'temp_max': 31.75, 'pressure': 1015, 'humidity': 28, 'sea_level': 1015, 'grnd_level': 996}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 262, 'gust': 7.15}, 'clouds': {'all': 0}, 'dt': 1751469647, 'sys': {'type': 2, 'id': 80238, 'country': 'FR', 'sunrise': 1751428914, 'sunset': 1751484114}, 'timezone': 7200, 'id': 2995468, 'name': 'Marseille', 'cod': 200}
+2025-07-02 17:24:12,343 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:12,343 - INFO - Cours en présentiel pour Philippine-Michèle Barthelemy (Marseille) – Météo : ciel dégagé
+2025-07-02 17:24:12,343 - DEBUG - Traitement de l'étudiant : François-Raymond Lucas (Marseille)
+2025-07-02 17:24:12,343 - INFO - Requête météo pour la ville : Marseille
+2025-07-02 17:24:12,343 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:12,627 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 512
+2025-07-02 17:24:12,627 - DEBUG - Réponse météo reçue : {'coord': {'lon': 5.5, 'lat': 43.3333}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 30.84, 'feels_like': 29.4, 'temp_min': 30.84, 'temp_max': 31.75, 'pressure': 1015, 'humidity': 28, 'sea_level': 1015, 'grnd_level': 996}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 262, 'gust': 7.15}, 'clouds': {'all': 0}, 'dt': 1751469647, 'sys': {'type': 2, 'id': 80238, 'country': 'FR', 'sunrise': 1751428914, 'sunset': 1751484114}, 'timezone': 7200, 'id': 2995468, 'name': 'Marseille', 'cod': 200}
+2025-07-02 17:24:12,629 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:12,629 - INFO - Cours en présentiel pour François-Raymond Lucas (Marseille) – Météo : ciel dégagé
+2025-07-02 17:24:12,629 - DEBUG - Traitement de l'étudiant : Thérèse Laroche (Marseille)
+2025-07-02 17:24:12,629 - INFO - Requête météo pour la ville : Marseille
+2025-07-02 17:24:12,629 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:12,974 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Marseille&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 512
+2025-07-02 17:24:12,974 - DEBUG - Réponse météo reçue : {'coord': {'lon': 5.5, 'lat': 43.3333}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 30.84, 'feels_like': 29.4, 'temp_min': 30.84, 'temp_max': 31.75, 'pressure': 1015, 'humidity': 28, 'sea_level': 1015, 'grnd_level': 996}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 262, 'gust': 7.15}, 'clouds': {'all': 0}, 'dt': 1751469647, 'sys': {'type': 2, 'id': 80238, 'country': 'FR', 'sunrise': 1751428914, 'sunset': 1751484114}, 'timezone': 7200, 'id': 2995468, 'name': 'Marseille', 'cod': 200}
+2025-07-02 17:24:12,975 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:12,975 - INFO - Cours en présentiel pour Thérèse Laroche (Marseille) – Météo : ciel dégagé
+2025-07-02 17:24:12,975 - INFO - Chargement des étudiants depuis : exports\Nantes.json
+2025-07-02 17:24:12,975 - DEBUG - Nombre d'étudiants chargés : 2
+2025-07-02 17:24:12,975 - DEBUG - Traitement de l'étudiant : Agathe-Alix Faure (Nantes)
+2025-07-02 17:24:12,975 - INFO - Requête météo pour la ville : Nantes
+2025-07-02 17:24:12,975 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:13,074 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Nantes&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 502
+2025-07-02 17:24:13,074 - DEBUG - Réponse météo reçue : {'coord': {'lon': -1.5833, 'lat': 47.1667}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 27.96, 'feels_like': 27.56, 'temp_min': 25.56, 'temp_max': 27.96, 'pressure': 1019, 'humidity': 39, 'sea_level': 1019, 'grnd_level': 1015}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 340}, 'clouds': {'all': 0}, 'dt': 1751469869, 'sys': {'type': 1, 'id': 6574, 'country': 'FR', 'sunrise': 1751429705, 'sunset': 1751486723}, 'timezone': 7200, 'id': 2990968, 'name': 'Nantes', 'cod': 200}
+2025-07-02 17:24:13,074 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:13,074 - INFO - Cours en présentiel pour Agathe-Alix Faure (Nantes) – Météo : ciel dégagé
+2025-07-02 17:24:13,074 - DEBUG - Traitement de l'étudiant : Nathalie Peron (Nantes)
+2025-07-02 17:24:13,075 - INFO - Requête météo pour la ville : Nantes
+2025-07-02 17:24:13,075 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:13,168 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Nantes&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 502
+2025-07-02 17:24:13,170 - DEBUG - Réponse météo reçue : {'coord': {'lon': -1.5833, 'lat': 47.1667}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 27.96, 'feels_like': 27.56, 'temp_min': 25.56, 'temp_max': 27.96, 'pressure': 1019, 'humidity': 39, 'sea_level': 1019, 'grnd_level': 1015}, 'visibility': 10000, 'wind': {'speed': 5.66, 'deg': 340}, 'clouds': {'all': 0}, 'dt': 1751469869, 'sys': {'type': 1, 'id': 6574, 'country': 'FR', 'sunrise': 1751429705, 'sunset': 1751486723}, 'timezone': 7200, 'id': 2990968, 'name': 'Nantes', 'cod': 200}
+2025-07-02 17:24:13,170 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:13,170 - INFO - Cours en présentiel pour Nathalie Peron (Nantes) – Météo : ciel dégagé
+2025-07-02 17:24:13,170 - INFO - Chargement des étudiants depuis : exports\Paris.json
+2025-07-02 17:24:13,170 - DEBUG - Nombre d'étudiants chargés : 3
+2025-07-02 17:24:13,170 - DEBUG - Traitement de l'étudiant : Vincent-Laurent Klein (Paris)
+2025-07-02 17:24:13,170 - INFO - Requête météo pour la ville : Paris
+2025-07-02 17:24:13,170 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:13,284 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 500
+2025-07-02 17:24:13,284 - DEBUG - Réponse météo reçue : {'coord': {'lon': 2.3488, 'lat': 48.8534}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 28.48, 'feels_like': 28.61, 'temp_min': 26.77, 'temp_max': 30.14, 'pressure': 1016, 'humidity': 46, 'sea_level': 1016, 'grnd_level': 1005}, 'visibility': 10000, 'wind': {'speed': 9.77, 'deg': 340}, 'clouds': {'all': 0}, 'dt': 1751469530, 'sys': {'type': 1, 'id': 6550, 'country': 'FR', 'sunrise': 1751428306, 'sunset': 1751486234}, 'timezone': 7200, 'id': 2988507, 'name': 'Paris', 'cod': 200}
+2025-07-02 17:24:13,284 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:13,284 - INFO - Cours en présentiel pour Vincent-Laurent Klein (Paris) – Météo : ciel dégagé
+2025-07-02 17:24:13,284 - DEBUG - Traitement de l'étudiant : Claudine Gilles (Paris)
+2025-07-02 17:24:13,284 - INFO - Requête météo pour la ville : Paris
+2025-07-02 17:24:13,286 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:13,681 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 500
+2025-07-02 17:24:13,683 - DEBUG - Réponse météo reçue : {'coord': {'lon': 2.3488, 'lat': 48.8534}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 28.48, 'feels_like': 28.61, 'temp_min': 26.77, 'temp_max': 30.14, 'pressure': 1016, 'humidity': 46, 'sea_level': 1016, 'grnd_level': 1005}, 'visibility': 10000, 'wind': {'speed': 9.77, 'deg': 340}, 'clouds': {'all': 0}, 'dt': 1751469530, 'sys': {'type': 1, 'id': 6550, 'country': 'FR', 'sunrise': 1751428306, 'sunset': 1751486234}, 'timezone': 7200, 'id': 2988507, 'name': 'Paris', 'cod': 200}
+2025-07-02 17:24:13,683 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:13,685 - INFO - Cours en présentiel pour Claudine Gilles (Paris) – Météo : ciel dégagé
+2025-07-02 17:24:13,685 - DEBUG - Traitement de l'étudiant : Thibault Renaud (Paris)
+2025-07-02 17:24:13,685 - INFO - Requête météo pour la ville : Paris
+2025-07-02 17:24:13,688 - DEBUG - Starting new HTTPS connection (1): api.openweathermap.org:443
+2025-07-02 17:24:13,789 - DEBUG - https://api.openweathermap.org:443 "GET /data/2.5/weather?q=Paris&appid=9e4a7d391020afd489b88b805988e1ac&units=metric&lang=fr HTTP/1.1" 200 500
+2025-07-02 17:24:13,789 - DEBUG - Réponse météo reçue : {'coord': {'lon': 2.3488, 'lat': 48.8534}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'ciel dégagé', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 28.48, 'feels_like': 28.61, 'temp_min': 26.77, 'temp_max': 30.14, 'pressure': 1016, 'humidity': 46, 'sea_level': 1016, 'grnd_level': 1005}, 'visibility': 10000, 'wind': {'speed': 9.77, 'deg': 340}, 'clouds': {'all': 0}, 'dt': 1751469530, 'sys': {'type': 1, 'id': 6550, 'country': 'FR', 'sunrise': 1751428306, 'sunset': 1751486234}, 'timezone': 7200, 'id': 2988507, 'name': 'Paris', 'cod': 200}
+2025-07-02 17:24:13,789 - DEBUG - Détermination du mode de cours pour la météo : Clear
+2025-07-02 17:24:13,791 - INFO - Cours en présentiel pour Thibault Renaud (Paris) – Météo : ciel dégagé
+2025-07-02 17:24:13,791 - INFO - Sauvegarde des décisions dans : decision_meteo/decisions_2025-07-02.json
+2025-07-02 17:24:13,791 - INFO - Sauvegarde des décisions terminée
