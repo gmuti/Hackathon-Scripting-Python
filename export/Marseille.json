@@ -1,0 +1,32 @@
+[
+    {
+        "nom": "Alexandrie Rousseau du Collet",
+        "age": "18",
+        "email": "vmoreno@mercier.fr",
+        "ville": "Marseille"
+    },
+    {
+        "nom": "Renée Humbert",
+        "age": "19",
+        "email": "rochertheodore@gmail.com",
+        "ville": "Marseille"
+    },
+    {
+        "nom": "Philippine-Michèle Barthelemy",
+        "age": "21",
+        "email": "xlemoine@poulain.net",
+        "ville": "Marseille"
+    },
+    {
+        "nom": "François-Raymond Lucas",
+        "age": "22",
+        "email": "helene56@bourgeois.fr",
+        "ville": "Marseille"
+    },
+    {
+        "nom": "Thérèse Laroche",
+        "age": "23",
+        "email": "rousseloceane@live.com",
+        "ville": "Marseille"
+    }
+]

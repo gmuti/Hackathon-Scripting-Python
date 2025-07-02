@@ -10,3 +10,4 @@ csv_path = os.getenv("CSV_PATH")
 
 if __name__ == "__main__":
     exportStudentByCity(csv_path)
+    
