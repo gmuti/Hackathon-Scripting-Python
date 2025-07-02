@@ -26,7 +26,7 @@ la gestion des étudiants et l'organisation des cours en fonction de la météo.
    - Fichier `decisions_<date>.json` récapitulatif
 
 3. **Logs**
-   - Suivi des événements, erreurs et décisions météo dans un fichier `logs/app.log`
+   - Suivi des événements, erreurs et décisions météo dans un fichier `logs/app_<date>.log`
 
 4. **Interface en ligne de commande (CLI)**
    - Filtrage par ville
@@ -52,6 +52,7 @@ Hackathon-Scripting-Python/
 ├── utils
 │  └── logger.py
 ├── exports
+├── logs
 └── decisions
    └──decisions_<date>.json 
 ```
