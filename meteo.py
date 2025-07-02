@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import os
 import requests
 import json
+from datetime import datetime
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
@@ -33,6 +34,7 @@ def determiner_mode_cours(condition_meteo):
 
 def traiter_etudiants():
     dossier_exports = "exports"
+    decisions = []
     
     if not os.path.exists(dossier_exports):
         print(f"Le dossier {dossier_exports} n'existe pas.")
@@ -42,19 +44,27 @@ def traiter_etudiants():
         if fichier.endswith('.json'):
             chemin_fichier = os.path.join(dossier_exports, fichier)
             ville = fichier.replace('.json', '')
-            
-            
+                        
             try:
                 with open(chemin_fichier, 'r', encoding='utf-8') as f:
-                    etudiants = json.load(f)
+                    liste_etudiants = json.load(f)
                 
                 condition_meteo, description_meteo = get_meteo(ville)
                 
                 mode_cours = determiner_mode_cours(condition_meteo)
                 
-                for etudiant in etudiants:
+                for etudiant in liste_etudiants:
+                    #creer une liste decision
                     nom = etudiant['nom']
                     ville_etudiant = etudiant['ville']
+                    
+                    decision = {
+                        "nom": nom,
+                        "ville": ville_etudiant,
+                        "mode_cours": mode_cours,
+                        "description_meteo": description_meteo
+                    }
+                    decisions.append(decision)
                     
                     if mode_cours == "visioconférence":
                         print(f"Cours en visio pour {nom} ({ville_etudiant}) – Météo : {description_meteo.lower()}")
@@ -67,7 +77,16 @@ def traiter_etudiants():
                 print(f"Erreur lors de la lecture du fichier JSON {chemin_fichier}.")
             except Exception as e:
                 print(f"Erreur lors du traitement de {fichier}: {str(e)}")
+                
+    sauvegarder_decisions_json(decisions)
 
+def sauvegarder_decisions_json(decisions: list[dict]):
+    os.makedirs("decision_meteo", exist_ok=True)
+    date_du_jour = datetime.now().strftime("%Y-%m-%d")
+    chemin_fichier = f"decision_meteo/decisions_{date_du_jour}.json"
+
+    with open(chemin_fichier, "w", encoding="utf-8") as f:
+        json.dump(decisions, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     traiter_etudiants()
