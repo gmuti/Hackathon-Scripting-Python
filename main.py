@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from gestion import exportStudentByCity, exportAllStudentByCity
 import argparse
+from meteo import traiter_etudiants
 import os
 
 def parser_arguments():
@@ -12,6 +13,7 @@ def parser_arguments():
 load_dotenv() 
 
 csv_path = os.getenv("CSV_PATH")
+API_KEY = os.getenv("API_KEY")
 
 
 if __name__ == "__main__":
@@ -27,5 +29,5 @@ if __name__ == "__main__":
         exportAllStudentByCity(csv_path)
     else:
         exportStudentByCity(csv_path, None)
-
+    traiter_etudiants(API_KEY)
     
