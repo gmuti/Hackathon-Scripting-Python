@@ -1,0 +1,26 @@
+[
+    {
+        "nom": "Lorraine Lagarde",
+        "age": "21",
+        "email": "mgarcia@gmail.com",
+        "ville": "Bordeaux"
+    },
+    {
+        "nom": "Marcel Le Charpentier",
+        "age": "22",
+        "email": "aurelie66@dbmail.com",
+        "ville": "Bordeaux"
+    },
+    {
+        "nom": "Stéphane Germain",
+        "age": "23",
+        "email": "genevieve13@schmitt.fr",
+        "ville": "Bordeaux"
+    },
+    {
+        "nom": "Frédérique Buisson-François",
+        "age": "23",
+        "email": "bernadettejacob@legrand.com",
+        "ville": "Bordeaux"
+    }
+]
