@@ -61,33 +61,32 @@ def exportJson(data, file):
     logger.info("Export JSON termine")
         
 
-def exportStudentByCity(csv_path, ville_CLI = None):
+def exportCityData(data, ville):
+    filterStudentData = filterStudent(data, ville)
+    sortedByAge = sortedAge(filterStudentData)
+    exportFile = f"exports/{ville}.json"
+    exportJson(sortedByAge, exportFile)
+    logger.info(f"Export terminé pour la ville : {ville}")
+
+def exportStudentByCity(csv_path, ville_CLI=None):
     logger.info("Lancement de la fonction exportStudentByCity")
-    data = readFile(csv_path,[])
-    allCity = getAllVille(data) 
+    data = readFile(csv_path, [])
+    allCity = getAllVille(data)
     if ville_CLI is None:
         ville = demanderVille(allCity)
-        logger.info(f"Ville selectionnee : {ville}")
+        logger.info(f"Ville sélectionnée : {ville}")
     else:
-        ville =  arrangeVille(ville_CLI)
+        ville = arrangeVille(ville_CLI)
         logger.info(f"Ville fournie par l'utilisateur : {ville}")
         if ville not in allCity:
             logger.error(f"La ville {ville} n'est pas dans la liste des villes disponibles.")
-            raise ValueError(f"La ville {ville} n'est pas dans la liste des villes disponibles.")
-    filterStudentData = filterStudent(data,ville)
-    sortedByAge = sortedAge(filterStudentData)    
-    exportFile = "exports/"+ville+".json"
-    exportJson(sortedByAge,exportFile)
-    logger.info(f"Export termine pour la ville : {ville}")
+            print(f"La ville {ville} n'est pas dans la liste des villes disponibles.")
+            exit(1)
+    exportCityData(data, ville)
 
 def exportAllStudentByCity(csv_path):
     logger.info("Lancement de la fonction exportAllStudentByCity")
-    data = readFile(csv_path,[])
+    data = readFile(csv_path, [])
     allCity = getAllVille(data)
-    
     for ville in allCity:
-        filterStudentData = filterStudent(data,ville)
-        sortedByAge = sortedAge(filterStudentData)
-        exportFile = "export/"+ville+".json"
-        exportJson(sortedByAge,exportFile)
-        logger.info(f"Export termine pour la ville : {ville}")
+        exportCityData(data, ville)

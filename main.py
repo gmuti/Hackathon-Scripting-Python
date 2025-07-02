@@ -4,16 +4,18 @@ import argparse
 from meteo import traiter_etudiants
 import os
 
+load_dotenv() 
+
+csv_path = os.getenv("CSV_PATH")
+API_KEY = os.getenv("API_KEY")
+
+
 def parser_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("--ville", type=str, help="Nom de la ville à traiter")
     parser.add_argument("--full", action="store_true", help="Traiter toutes les villes")
     return parser.parse_args()
 
-load_dotenv() 
-
-csv_path = os.getenv("CSV_PATH")
-API_KEY = os.getenv("API_KEY")
 
 
 if __name__ == "__main__":
