@@ -11,6 +11,6 @@ API_KEY = os.getenv("API_KEY")
 
 
 if __name__ == "__main__":
-    traiter_etudiants(API_KEY)
     exportStudentByCity(csv_path)
+    traiter_etudiants(API_KEY)
     

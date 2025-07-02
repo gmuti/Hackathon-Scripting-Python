@@ -3,6 +3,7 @@ import requests
 import json
 from datetime import datetime
 from utils.logger import logger
+from utils.json_utils import export_json,load_json
 
 def get_meteo(ville, apiKey):
     url = "https://api.openweathermap.org/data/2.5/weather"
@@ -41,8 +42,7 @@ def lister_fichiers_json(dossier_exports):
 
 def charger_etudiants(chemin_fichier):
     logger.info(f"Chargement des étudiants depuis : {chemin_fichier}")
-    with open(chemin_fichier, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    data = load_json(chemin_fichier)
     logger.debug(f"Nombre d'étudiants chargés : {len(data)}")
     return data
 
@@ -90,10 +90,8 @@ def traiter_etudiants(apiKey):
     sauvegarder_decisions_json(decisions)
 
 def sauvegarder_decisions_json(decisions: list[dict]):
-    os.makedirs("decision_meteo", exist_ok=True)
     date_du_jour = datetime.now().strftime("%Y-%m-%d")
     chemin_fichier = f"decision_meteo/decisions_{date_du_jour}.json"
     logger.info(f"Sauvegarde des décisions dans : {chemin_fichier}")
-    with open(chemin_fichier, "w", encoding="utf-8") as f:
-        json.dump(decisions, f, ensure_ascii=False, indent=2)
+    export_json(decisions,chemin_fichier)
     logger.info("Sauvegarde des décisions terminée")
